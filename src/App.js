@@ -13,11 +13,11 @@ function App() {
         <center><button className='button' onClick={refreshPage}>Click to reload!</button></center>
         <center><WordCard value="Jaehyun"/></center>
         <center><WordCard value="Taeyong"/></center>
-        <details className='คำใบ้'>
+        <center><details className='คำใบ้'>
           <summary>Hint</summary>
             1.คนที่ cover เพลง I Like Me Better และเป็นสมาชิก nct127<br></br>
             2.คนร้องเพลง long flight และเป็นสมาชิก nct127<br></br>
-        </details>  
+        </details></center>  
     </div>
     
   );
